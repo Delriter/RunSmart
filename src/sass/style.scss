@@ -8,13 +8,14 @@
     max-width: 950px;
     margin: 0 auto;
 }
-
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/buttons';
 @import 'blocks/promo';
 @import 'blocks/header';
-@import 'blocks/buttons';
 @import 'blocks/advantage';
-
-
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
 
 @import 'media';
