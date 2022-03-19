@@ -1,3 +1,8 @@
+@media (max-width: 1200px) {
+    .container{
+        width: 750px;
+    }
+}
 @media (max-width: 1023px) {
     .container {
         width: 670px;
@@ -93,7 +98,7 @@
     .button{
         width: 140px;
         height: 25px;
-        &_main{
+        &_main {
             width: 200px;
             height: 40px;
             font-size: 13px;
