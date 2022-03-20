@@ -6,7 +6,6 @@
     border: none;
     font-weight: 500;
     font-size: 12px;
-    line-height: 19px;
     color: #fff;
     text-transform: uppercase;
     &_main {
@@ -15,10 +14,11 @@
         height: 54px;
         font-size: 16px;
     }
-    &_consultation {
+    &_submit {
+        width: 100%;
         margin-top: 20px;
-        width: 303px;
-        height: 54px;
+        height: 55px;
         font-size: 16px;
+        color:#fff;
     }
 }
