@@ -3,7 +3,7 @@ $(document).ready(function(){
         infinite: true,
         speed: 1200,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1500,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/chevron-left-solid.png" alt="arrow"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/chevron-right-solid.png" alt="arrow"></button>',
         responsive: [{
