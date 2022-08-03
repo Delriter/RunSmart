@@ -58,13 +58,25 @@
             margin-top: 30px;
         }
     }
+    .carousel{
+        padding: 35px 0;
+        &__inner{
+            width: 600px;
+            img{
+                width: 100%;
+            }
+        }
+        .prev, .next {
+            display: none;
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
         width: 400px;
     }
     .promo {
-        min-height: 700px;
+        min-height: 600px;
         padding: 15px 0 25px 0;
         &__header {
             font-size: 28px;
@@ -138,11 +150,62 @@
     }
     .title {
         font-size: 16px;
-    } 
+    }
+    .catalog {
+        &__tab{
+            font-size: 12px;
+            width: 30%;
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feedback{
+        &__content {
+            flex-direction: column;
+            padding-top: 30px;
+            img{
+                display: block;
+                width: 120px;
+                height: 120px;
+                margin: 0 auto;
+            }
+        }
+        &__name {
+            text-align: center;
+            margin-top: 10px;;
+        }
+        &__wrapper {
+            margin: 0;
+        }
+        &__subheader {
+            text-align: center;
+            margin-top: 0;
+        }
+        &__descr {
+            display: block;
+            margin: 0 auto;
+            margin-top: 7px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 400px;
+            img{
+                width: 100%;
+            }
+        }
+
+    }
 }
 @media (max-width: 424px) {
     .container {
         width: 300px;
+    }
+    .header{
+        &__contacts{
+            width: 70%;
+        }
     }
     .promo {
         min-height: 600px;
@@ -188,7 +251,8 @@
         text-align: center;
     }
     .consultation {
-        min-height: 600px;
+        min-height: 500px;
+        padding: 50px 0 30px 0;
         &__descr {
             text-align: center;
             font-size: 12px;
@@ -200,6 +264,30 @@
         margin: 25px auto;
         input {
             font-size: 12px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            margin-top: 35px;
+        }
+        &__content {
+            margin-top: 20px;
+        }
+        &__tab{
+            height: 25px;
+            font-size: 8px;
+            line-height: 23px;
+        }
+    }
+    .feedback{
+        &__name {
+            font-size: 13px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 11px;
         }
     }
 }

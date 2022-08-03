@@ -8,6 +8,12 @@
     font-size: 12px;
     color: #fff;
     text-transform: uppercase;
+    transition: 0.6s all;
+    &:hover{
+        color: black;
+        background-color: #fff;
+        box-shadow: 3px 3px 20px $main-color;
+    }
     &_main {
         margin-top: 67px;
         width: 303px;
@@ -20,5 +26,10 @@
         height: 55px;
         font-size: 16px;
         color:#fff;
+    }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 16px;
     }
 }
