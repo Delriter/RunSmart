@@ -1,4 +1,10 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate';
+@import 'libs/fonts';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css';
+
 @import 'base/variables';
+@import 'base/animations';
 
 *{
     font-family: Museo Sans Cyrl, sans-serif;
@@ -20,6 +26,10 @@
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/feedback';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
 
 
 @import 'media';

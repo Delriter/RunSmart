@@ -159,6 +159,16 @@
         &__content {
             justify-content: center;
         }
+        &-item {
+           min-height: 200px;
+           hr{
+            margin-bottom: 5px;
+            margin-top: 5px;
+           }
+           &__img {
+            height: 150px;
+           }
+        }
     }
     .feedback{
         &__content {
@@ -197,6 +207,27 @@
         }
 
     }
+    .footer{
+
+        &__info{
+            padding: 30px;
+            width: 300px;
+            height: 220px;
+        }
+        &__social {
+            width: 100%;
+            margin: 0;
+
+        }
+        &__addr{
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        &__phone{
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+    }
 }
 @media (max-width: 424px) {
     .container {
@@ -204,7 +235,7 @@
     }
     .header{
         &__contacts{
-            width: 70%;
+            width: 80%;
         }
     }
     .promo {
@@ -251,8 +282,8 @@
         text-align: center;
     }
     .consultation {
-        min-height: 500px;
-        padding: 50px 0 30px 0;
+        min-height: 450px;
+        padding: 35px 0 20px 0;
         &__descr {
             text-align: center;
             font-size: 12px;
@@ -267,6 +298,9 @@
         }
     }
     .catalog{
+        &-item{
+            width: 280px;
+        }
         &__tabs{
             margin-top: 35px;
         }
@@ -288,6 +322,18 @@
         }
         &__descr {
             font-size: 11px;
+            padding: 0 5px;
+        }
+    }
+    .button_mini{
+        width: 100px;
+        height: 25px;
+    }
+    .footer{
+        &__info{
+            width: 200px;
+            height: 180px;
+            padding: 10px;
         }
     }
 }

@@ -15,6 +15,16 @@
         color: #FFFFFF;
         text-transform: uppercase;
         line-height: 42px;
+        &__logo{
+            &_animated{
+                &:hover{
+                    animation-name: heartbeat;
+                    animation-duration: 2s;
+                    animation-timing-function: ease;
+                    animation-iteration-count: infinite;
+                }
+            }
+        }
     }
     &__subheader {
         margin: 0;
